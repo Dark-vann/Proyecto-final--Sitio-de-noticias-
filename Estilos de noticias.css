@@ -20,17 +20,16 @@ header button {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 50% 50%;
-    height: 200vh;
+    height: 100vh;
+}
+
+#Div_Snorlax {
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 #Snorlax {
     width: 100%;
     height: 100%;
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-#Wayla {
-    grid-column-start: 3;
-    grid-column-end: 4;
 }
